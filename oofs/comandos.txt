@@ -1,0 +1,45 @@
+!Este bloque de codigo entero pertenece a lineas unidas
+Haciendo Linea: x = 10 y = 20 z = 0
+Haciendo Linea: x = 310 y = 620 z = 0
+Haciendo Linea: x = 105 y = 260 z = 0
+Haciendo Linea: x = 610 y = 720 z = 0
+
+
+
+!Circulo
+Haciendo Circulo: x = 10 y = 20 z = 0 - x = 210 y = 20 z = 0
+Haciendo Circulo: x = 15 y = 60 z = 0 - x = 610 y = 720 z = 0
+
+
+
+!SemiCirculo
+Haciendo semi: x = 10 y = 20 z = 0 - x = 310 y = 620 z = 0
+Haciendo semi: x = 105 y = 260 z = 0 - x = 610 y = 720 z = 0
+
+
+
+!Este bloque de codigo entero pertenece a lineas unidas
+Haciendo Linea: x = 10 y = 20 z = 0
+Haciendo Linea: x = 310 y = 620 z = 0
+Haciendo Linea: x = 105 y = 260 z = 0
+Haciendo Linea: x = 610 y = 720 z = 0
+
+
+
+!Circulo
+Haciendo Circulo: x = 10 y = 20 z = 0 - x = 210 y = 20 z = 0
+Haciendo Circulo: x = 15 y = 60 z = 0 - x = 610 y = 720 z = 0
+
+
+
+!Circulo
+Haciendo Circulo: x = 10 y = 20 z = 0 - x = 210 y = 20 z = 0
+Haciendo Circulo: x = 15 y = 60 z = 0 - x = 610 y = 720 z = 0
+
+
+
+!Este bloque de codigo entero pertenece a lineas unidas
+Haciendo Linea: x = 10 y = 20 z = 0
+Haciendo Linea: x = 310 y = 620 z = 0
+Haciendo Linea: x = 105 y = 260 z = 0
+Haciendo Linea: x = 610 y = 720 z = 0
