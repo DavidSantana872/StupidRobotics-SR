@@ -1,0 +1,20 @@
+
+
+! Levantamiento
+MoveL PL0, v1000, fine, tool0;
+MoveL PL10, v1000, fine, tool0;
+MoveL P10, v1000, fine, tool0;
+
+
+
+! Semi circulo
+MoveC P20, P30, v2000, fine, tool0;
+
+
+MoveL P40, v1000, fine, tool0;
+
+
+! Circulo
+MoveC P50, P60, v2000, fine, tool0;
+MoveC P70, P40, v2000, fine, tool0;
+
