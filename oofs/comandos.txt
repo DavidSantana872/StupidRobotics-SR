@@ -1,45 +1,77 @@
-!Este bloque de codigo entero pertenece a lineas unidas
-Haciendo Linea: x = 10 y = 20 z = 0
-Haciendo Linea: x = 310 y = 620 z = 0
-Haciendo Linea: x = 105 y = 260 z = 0
-Haciendo Linea: x = 610 y = 720 z = 0
+
+! Linea
+! X = 15.342 Y = 60 Z = 0
+MoveL Offs(p10,15.342*ESC,60*ESC,0), v1000, fine, tool0;
+
+! Linea
+! X = 610 Y = 720 Z = 0
+MoveL Offs(p10,610*ESC,720*ESC,0), v1000, fine, tool0;
+
+! Linea
+! X = 10 Y = 20 Z = 0
+MoveL Offs(p10,10*ESC,20*ESC,0), v1000, fine, tool0;
+
+! Linea
+! X = 310 Y = 620 Z = 0
+MoveL Offs(p10,310*ESC,620*ESC,0), v1000, fine, tool0;
+
+! Linea
+! X = 105 Y = 260 Z = 0
+MoveL Offs(p10,105*ESC,260*ESC,0), v1000, fine, tool0;
+
+! Linea
+! X = 610 Y = 720 Z = 0
+MoveL Offs(p10,610*ESC,720*ESC,0), v1000, fine, tool0;
+
+
+! Circulo
+
+! X = 10 Y = 20 Z = 0
+! X = 210 Y = 20 Z = 0
+
+	MoveC Offs(p10,10*ESC,20*ESC,0.0000), Offs(p10,210*ESC,20*ESC,0.0000), v1500, fine, tool0;
+
+! X = 15 Y = 60 Z = 0
+
+! X = 610 Y = 720 Z = 0
+
+	MoveC Offs(p10,15*ESC,60*ESC,0.0000), Offs(p10,610*ESC,720*ESC,0.0000), v1500, fine, tool0;
 
 
 
-!Circulo
-Haciendo Circulo: x = 10 y = 20 z = 0 - x = 210 y = 20 z = 0
-Haciendo Circulo: x = 15 y = 60 z = 0 - x = 610 y = 720 z = 0
+! SemiCirculo
+
+! X = 10 Y = 20 Z = 0
+! X = 310 Y = 620 Z = 0
+
+MoveC Offs(p10,10*ESC,20*ESC,0.0000), Offs(p10,310*ESC,620*ESC,0.0000), v1500, fine, tool0;
+! SemiCirculo
+
+! X = 105 Y = 260 Z = 0
+! X = 610 Y = 720 Z = 0
+
+MoveC Offs(p10,105*ESC,260*ESC,0.0000), Offs(p10,610*ESC,720*ESC,0.0000), v1500, fine, tool0;
+
+
+! Levanamiento
+! X = 10.533432 Y = 20 Z = 0
+! X = 310.343 Y = 620 Z = 0
+
+	MoveL Offs(p10,10.533432*ESC,20*ESC,50), v1000, fine, tool0;
+	MoveL Offs(p10,310.343*ESC,620*ESC,50), v1000, fine, tool0;
+	WaitTime t;
+	MoveL Offs(p10,310.343*ESC,620*ESC,0), v1000, fine, tool0;
 
 
 
-!SemiCirculo
-Haciendo semi: x = 10 y = 20 z = 0 - x = 310 y = 620 z = 0
-Haciendo semi: x = 105 y = 260 z = 0 - x = 610 y = 720 z = 0
+
+! Levanamiento
+! X = 105 Y = 260 Z = 0
+! X = 610 Y = 720 Z = 0
+
+	MoveL Offs(p10,105*ESC,260*ESC,50), v1000, fine, tool0;
+	MoveL Offs(p10,610*ESC,720*ESC,50), v1000, fine, tool0;
+	WaitTime t;
+	MoveL Offs(p10,610*ESC,720*ESC,0), v1000, fine, tool0;
 
 
-
-!Este bloque de codigo entero pertenece a lineas unidas
-Haciendo Linea: x = 10 y = 20 z = 0
-Haciendo Linea: x = 310 y = 620 z = 0
-Haciendo Linea: x = 105 y = 260 z = 0
-Haciendo Linea: x = 610 y = 720 z = 0
-
-
-
-!Circulo
-Haciendo Circulo: x = 10 y = 20 z = 0 - x = 210 y = 20 z = 0
-Haciendo Circulo: x = 15 y = 60 z = 0 - x = 610 y = 720 z = 0
-
-
-
-!Circulo
-Haciendo Circulo: x = 10 y = 20 z = 0 - x = 210 y = 20 z = 0
-Haciendo Circulo: x = 15 y = 60 z = 0 - x = 610 y = 720 z = 0
-
-
-
-!Este bloque de codigo entero pertenece a lineas unidas
-Haciendo Linea: x = 10 y = 20 z = 0
-Haciendo Linea: x = 310 y = 620 z = 0
-Haciendo Linea: x = 105 y = 260 z = 0
-Haciendo Linea: x = 610 y = 720 z = 0

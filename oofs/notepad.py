@@ -13,8 +13,8 @@ from tkinter import ttk
 from tkinter.filedialog import askopenfilename, asksaveasfilename
 import re
 from urllib.parse import quote
-from main import procesar_coordenadas 
-from main import copy_command
+import main 
+
 
 
 
@@ -586,7 +586,7 @@ root.bind("<Control - T>", time_date)
 format_menu = Menu(menu_bar, tearoff = 0)
 word_wrap1 = BooleanVar()
 word_wrap1.set(True)
-menu_bar.add_command(label="Formato", command= lambda : procesar_coordenadas(text_area))
+menu_bar.add_command(label="Formato", command= lambda : print("ds"))
 
 #menu_bar.add_cascade(label = "Formato", menu = format_menu)
 #format_menu.add_checkbutton(label = "Word Wrap", onvalue = 1, offvalue = 0, variable = word_wrap1, command = word_wrap)
@@ -597,7 +597,7 @@ view_menu = Menu(menu_bar, tearoff = 0)
 show_status = BooleanVar()
 show_status.set(True)
 
-menu_bar.add_command(label="Ver", command= lambda : procesar_coordenadas(text_area))
+menu_bar.add_command(label="Ver", command= lambda : main.main(text_area))
 
 #view_menu.add_checkbutton(label = "Status Bar", onvalue = 1, offvalue = 0, variable = show_status, command = status)
 
@@ -605,7 +605,7 @@ menu_bar.add_command(label="Ver", command= lambda : procesar_coordenadas(text_ar
 # Help Menu
 help_menu = Menu(menu_bar, tearoff = 0)
 
-menu_bar.add_command(label="Ayuda", command= lambda : copy_command() )
+menu_bar.add_command(label="Ayuda", command= lambda : main.main(text_area) )
 
 #menu_bar.add_cascade(label="Ayuda", menu=help_menu)
 
