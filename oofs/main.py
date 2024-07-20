@@ -87,4 +87,3 @@ def main(text_area):
             i = i + 1   
         i = i + 1
         
-main()
